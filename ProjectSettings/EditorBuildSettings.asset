@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/House interior.unity
+    guid: 279aba3136062504aaa0938877ebca30
+  - enabled: 1
+    path: Assets/Scenes/courtyard_scene.unity
+    guid: cef639d71187d4653bed086e56a4ddc8
+  - enabled: 1
+    path: Assets/Scenes/Surgical Theater.unity
+    guid: 51f8d3af3eafa3449bcc61db0d3098be
+  m_configObjects: {}
