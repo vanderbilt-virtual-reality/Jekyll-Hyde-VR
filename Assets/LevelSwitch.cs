@@ -8,8 +8,9 @@ public class LevelSwitch : MonoBehaviour
 {
     public int curLevel = 0;
     static bool entering = true;
-
     public string[] levelNames = new string[3] { "House interior", "courtyard_scene", "Surgical Theater" };
+    public static int[] count = { 0, 0, 0 };
+    public static bool[] finish = { false, false, false };
 
     // Start is called before the first frame update
     void Start()
@@ -33,28 +34,33 @@ public class LevelSwitch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (gameObject.GetComponent<OVRGrabber>().grabbedObject != null)
+        if (finish[curLevel])
         {
-            print(gameObject.GetComponent<OVRGrabber>().grabbedObject.gameObject);
-            if (gameObject.GetComponent<OVRGrabber>().grabbedObject.gameObject.tag == "DoorEnter")
+            if (gameObject.GetComponent<OVRGrabber>().grabbedObject != null)
             {
-                Debug.Log(gameObject.GetComponent<OVRGrabber>().grabbedObject.gameObject.tag);
-                Debug.Log(curLevel);
-                curLevel--;
-                Debug.Log(curLevel);
-                entering = false;
-                SteamVR_LoadLevel.Begin(levelNames[curLevel]);
-            }
-            else if (gameObject.GetComponent<OVRGrabber>().grabbedObject.gameObject.tag == "DoorExit")
-            {
-                Debug.Log(gameObject.GetComponent<OVRGrabber>().grabbedObject.gameObject.tag);
-                Debug.Log(curLevel);
-                curLevel++;
-                Debug.Log(curLevel);
-                entering = true;
-                SteamVR_LoadLevel.Begin(levelNames[curLevel]);
+                print(gameObject.GetComponent<OVRGrabber>().grabbedObject.gameObject);
+                Debug.Log(finish[curLevel]);
+                if (gameObject.GetComponent<OVRGrabber>().grabbedObject.gameObject.tag == "DoorEnter")
+                {
+                    Debug.Log(gameObject.GetComponent<OVRGrabber>().grabbedObject.gameObject.tag);
+                    Debug.Log(curLevel);
+                    curLevel--;
+                    Debug.Log(curLevel);
+                    entering = false;
+                    SteamVR_LoadLevel.Begin(levelNames[curLevel]);
+                }
+                else if (gameObject.GetComponent<OVRGrabber>().grabbedObject.gameObject.tag == "DoorExit")
+                {
+                    Debug.Log(gameObject.GetComponent<OVRGrabber>().grabbedObject.gameObject.tag);
+                    Debug.Log(curLevel);
+                    curLevel++;
+                    Debug.Log(curLevel);
+                    entering = true;
+                    SteamVR_LoadLevel.Begin(levelNames[curLevel]);
+                }
             }
         }
+        
         
     }
 }
