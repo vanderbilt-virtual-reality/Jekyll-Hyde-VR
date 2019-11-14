@@ -14638,6 +14638,7 @@ MonoBehaviour:
   - House interior
   - courtyard_scene
   - Surgical Theater
+  toast: {fileID: 0}
 --- !u!114 &738977980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52358,7 +52359,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: new text
+  m_Text: 
 --- !u!222 &1473055603
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -53632,6 +53633,7 @@ MonoBehaviour:
   - House interior
   - courtyard_scene
   - Surgical Theater
+  toast: {fileID: 1473055602}
 --- !u!114 &1833591694
 MonoBehaviour:
   m_ObjectHideFlags: 0

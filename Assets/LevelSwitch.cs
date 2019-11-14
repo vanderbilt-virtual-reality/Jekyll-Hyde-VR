@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using Valve.VR;
 
 
@@ -11,6 +12,7 @@ public class LevelSwitch : MonoBehaviour
     public string[] levelNames = new string[3] { "House interior", "courtyard_scene", "Surgical Theater" };
     public static int[] count = { 0, 0, 0 };
     public static bool[] finish = { false, false, false };
+    public Text toast;
 
     // Start is called before the first frame update
     void Start()
@@ -18,6 +20,7 @@ public class LevelSwitch : MonoBehaviour
         GameObject entrance = GameObject.FindWithTag("DoorEnter");
         GameObject exit = GameObject.FindWithTag("DoorExit");
         GameObject player = GameObject.FindWithTag("Player");
+        toast = toast.GetComponent<Text>();
         Vector3 startPos;
         if (entering)
         {
@@ -29,13 +32,13 @@ public class LevelSwitch : MonoBehaviour
             player.transform.rotation = GameObject.FindWithTag("DoorExit").transform.rotation;
         }
         player.transform.position = startPos;
+        print(startPos);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (finish[curLevel])
-        {
+  
             if (gameObject.GetComponent<OVRGrabber>().grabbedObject != null)
             {
                 print(gameObject.GetComponent<OVRGrabber>().grabbedObject.gameObject);
@@ -46,7 +49,9 @@ public class LevelSwitch : MonoBehaviour
                     Debug.Log(curLevel);
                     curLevel--;
                     Debug.Log(curLevel);
+                    
                     entering = false;
+                    print(entering);
                     SteamVR_LoadLevel.Begin(levelNames[curLevel]);
                 }
                 else if (gameObject.GetComponent<OVRGrabber>().grabbedObject.gameObject.tag == "DoorExit")
@@ -56,10 +61,11 @@ public class LevelSwitch : MonoBehaviour
                     curLevel++;
                     Debug.Log(curLevel);
                     entering = true;
+                print(entering);
                     SteamVR_LoadLevel.Begin(levelNames[curLevel]);
                 }
             }
-        }
+        
         
         
     }
