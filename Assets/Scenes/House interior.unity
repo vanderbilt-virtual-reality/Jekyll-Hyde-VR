@@ -1456,10 +1456,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1424240577, guid: d726c6a2e5bee3d4ba3a5c70208d9e93, type: 3}
-      propertyPath: m_Name
-      value: Table_6
-      objectReference: {fileID: 0}
     - target: {fileID: 9028132801711202371, guid: d726c6a2e5bee3d4ba3a5c70208d9e93,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1514,6 +1510,10 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1424240577, guid: d726c6a2e5bee3d4ba3a5c70208d9e93, type: 3}
+      propertyPath: m_Name
+      value: Table_6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d726c6a2e5bee3d4ba3a5c70208d9e93, type: 3}
@@ -5879,6 +5879,7 @@ MonoBehaviour:
   - House interior
   - courtyard_scene
   - Surgical Theater
+  toast: {fileID: 0}
 --- !u!114 &1083201411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5896,6 +5897,7 @@ MonoBehaviour:
   - House interior
   - courtyard_scene
   - Surgical Theater
+  toast: {fileID: 0}
 --- !u!1001 &1105964418
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6314,10 +6316,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1455997300849784, guid: 2905acef1a365af46be8bcfa1a41ae87, type: 3}
-      propertyPath: m_Name
-      value: Candle_1
-      objectReference: {fileID: 0}
     - target: {fileID: 4246063558298672, guid: 2905acef1a365af46be8bcfa1a41ae87, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.65
@@ -6361,6 +6359,10 @@ PrefabInstance:
     - target: {fileID: 4246063558298672, guid: 2905acef1a365af46be8bcfa1a41ae87, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1455997300849784, guid: 2905acef1a365af46be8bcfa1a41ae87, type: 3}
+      propertyPath: m_Name
+      value: Candle_1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2905acef1a365af46be8bcfa1a41ae87, type: 3}
@@ -7597,7 +7599,9 @@ GameObject:
   - component: {fileID: 1489230296}
   - component: {fileID: 1489230295}
   - component: {fileID: 1489230294}
-  m_Layer: 0
+  - component: {fileID: 1489230298}
+  - component: {fileID: 1489230297}
+  m_Layer: 8
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7677,6 +7681,39 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1489230292}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1489230297
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489230292}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &1489230298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489230292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 0
+  m_snapOrientation: 0
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
 --- !u!1001 &1490078394
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11211,25 +11248,20 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
-    - target: {fileID: 2534866581884222612, guid: 0766af0dc87a3f1468ba3ec30f05f971,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 0766af0dc87a3f1468ba3ec30f05f971,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.787
+      value: -4.575
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 0766af0dc87a3f1468ba3ec30f05f971,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.68
+      value: 4.63
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 0766af0dc87a3f1468ba3ec30f05f971,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.412
+      value: -4.031
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 0766af0dc87a3f1468ba3ec30f05f971,
         type: 3}
@@ -11286,6 +11318,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 0766af0dc87a3f1468ba3ec30f05f971,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0766af0dc87a3f1468ba3ec30f05f971, type: 3}
 --- !u!1 &1977648076 stripped
@@ -11318,7 +11355,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
