@@ -9,7 +9,7 @@ public class LevelSwitch : MonoBehaviour
 {
     public int curLevel = 0;
     static bool entering = true;
-    public string[] levelNames = new string[3] { "House interior", "courtyard_scene", "Surgical Theater" };
+    public string[] levelNames = new string[4] { "street", "House interior", "courtyard_scene", "Surgical Theater" };
     public static int[] count = { 0, 0, 0 };
     public static bool[] finish = { false, false, false };
     public Text toast;

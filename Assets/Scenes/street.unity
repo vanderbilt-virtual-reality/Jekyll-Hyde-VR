@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.22485095, g: 0.2513121, b: 0.3221126, a: 1}
+  m_IndirectSpecularColor: {r: 0.22479096, g: 0.25129846, b: 0.3219795, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -131,6 +131,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: fbxHouse (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -1233657081076909810, guid: 8b626ac1649e44aed88ee64d9de481f1,
+        type: 3}
+      propertyPath: m_TagString
+      value: DoorExit
       objectReference: {fileID: 0}
     - target: {fileID: -8437215779380811630, guid: 8b626ac1649e44aed88ee64d9de481f1,
         type: 3}
@@ -2126,6 +2131,25 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1406462525}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &228836062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228836061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2ce48b2790f1fd4296c6aa8942b8c18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curLevel: 0
+  levelNames:
+  - street
+  - House interior
+  - courtyard_scene
+  - Surgical Theater
+  toast: {fileID: 0}
 --- !u!114 &228836063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2146,24 +2170,6 @@ MonoBehaviour:
   - {fileID: 228836065}
   m_controller: 1
   m_parentTransform: {fileID: 0}
---- !u!114 &228836064
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 228836061}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2ce48b2790f1fd4296c6aa8942b8c18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  curLevel: 2
-  levelNames:
-  - House interior
-  - courtyard_scene
-  - Surgical Theater
-  toast: {fileID: 0}
 --- !u!135 &228836065
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7736,6 +7742,25 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1406462525}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1617956996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617956995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2ce48b2790f1fd4296c6aa8942b8c18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curLevel: 0
+  levelNames:
+  - street
+  - House interior
+  - courtyard_scene
+  - Surgical Theater
+  toast: {fileID: 0}
 --- !u!114 &1617956997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7756,24 +7781,6 @@ MonoBehaviour:
   - {fileID: 1617956999}
   m_controller: 2
   m_parentTransform: {fileID: 0}
---- !u!114 &1617956998
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1617956995}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2ce48b2790f1fd4296c6aa8942b8c18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  curLevel: 2
-  levelNames:
-  - House interior
-  - courtyard_scene
-  - Surgical Theater
-  toast: {fileID: 0}
 --- !u!135 &1617956999
 SphereCollider:
   m_ObjectHideFlags: 0

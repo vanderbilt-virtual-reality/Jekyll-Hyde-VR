@@ -6,6 +6,7 @@ TagManager:
   tags:
   - DoorEnter
   - DoorExit
+  - Paper
   layers:
   - Default
   - TransparentFX
