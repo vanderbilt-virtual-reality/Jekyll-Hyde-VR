@@ -6029,6 +6029,7 @@ MonoBehaviour:
   - House interior
   - courtyard_scene
   - Surgical Theater
+  - Lab New
 --- !u!114 &1083201411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6047,6 +6048,7 @@ MonoBehaviour:
   - House interior
   - courtyard_scene
   - Surgical Theater
+  - Lab New
 --- !u!4 &1083201412 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400012, guid: ce816f2e6abb0504092c23ed9b970dfd,

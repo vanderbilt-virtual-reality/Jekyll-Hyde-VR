@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1273174, g: 0.13414761, b: 0.12107885, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1491,6 +1491,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2275905803436278979, guid: 9db8014013242bb47be275fd3f4ae944,
+        type: 3}
+      propertyPath: m_Name
+      value: Table_Prefab
+      objectReference: {fileID: 0}
     - target: {fileID: 4646598905879927781, guid: 9db8014013242bb47be275fd3f4ae944,
         type: 3}
       propertyPath: m_Layer
@@ -1500,11 +1505,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 2275905803436278979, guid: 9db8014013242bb47be275fd3f4ae944,
-        type: 3}
-      propertyPath: m_Name
-      value: Table_Prefab
       objectReference: {fileID: 0}
     - target: {fileID: 636171538999131951, guid: 9db8014013242bb47be275fd3f4ae944,
         type: 3}
@@ -3671,12 +3671,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2ce48b2790f1fd4296c6aa8942b8c18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  curLevel: 2
+  curLevel: 4
   levelNames:
+  - street
   - House interior
   - courtyard_scene
   - Surgical Theater
-  toast: {fileID: 0}
+  - Lab New
 --- !u!114 &738977980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8435,12 +8436,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2ce48b2790f1fd4296c6aa8942b8c18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  curLevel: 2
+  curLevel: 4
   levelNames:
+  - street
   - House interior
   - courtyard_scene
   - Surgical Theater
-  toast: {fileID: 1473055602}
+  - Lab New
 --- !u!114 &1833591694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9289,6 +9291,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Shelve_5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737157777699348144, guid: 6bc043f9410c2f149a265091157bb517,
+        type: 3}
+      propertyPath: m_TagString
+      value: DoorEnter
       objectReference: {fileID: 0}
     - target: {fileID: 7789445998800283970, guid: 6bc043f9410c2f149a265091157bb517,
         type: 3}
