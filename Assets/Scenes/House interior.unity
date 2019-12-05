@@ -1456,6 +1456,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1424240577, guid: d726c6a2e5bee3d4ba3a5c70208d9e93, type: 3}
+      propertyPath: m_Name
+      value: Table_6
+      objectReference: {fileID: 0}
     - target: {fileID: 9028132801711202371, guid: d726c6a2e5bee3d4ba3a5c70208d9e93,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1510,10 +1514,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1424240577, guid: d726c6a2e5bee3d4ba3a5c70208d9e93, type: 3}
-      propertyPath: m_Name
-      value: Table_6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d726c6a2e5bee3d4ba3a5c70208d9e93, type: 3}
@@ -4414,7 +4414,7 @@ Camera:
   m_GameObject: {fileID: 811102465}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 3
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -4433,10 +4433,10 @@ Camera:
   field of view: 60
   orthographic: 0
   orthographic size: 5
-  m_Depth: 0
+  m_Depth: 1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 32
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -6023,12 +6023,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2ce48b2790f1fd4296c6aa8942b8c18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  curLevel: 0
+  curLevel: 1
   levelNames:
+  - street
   - House interior
   - courtyard_scene
   - Surgical Theater
-  toast: {fileID: 0}
 --- !u!114 &1083201411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6041,12 +6041,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2ce48b2790f1fd4296c6aa8942b8c18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  curLevel: 0
+  curLevel: 1
   levelNames:
+  - street
   - House interior
   - courtyard_scene
   - Surgical Theater
-  toast: {fileID: 0}
 --- !u!4 &1083201412 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400012, guid: ce816f2e6abb0504092c23ed9b970dfd,
@@ -6471,6 +6471,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1455997300849784, guid: 2905acef1a365af46be8bcfa1a41ae87, type: 3}
+      propertyPath: m_Name
+      value: Candle_1
+      objectReference: {fileID: 0}
     - target: {fileID: 4246063558298672, guid: 2905acef1a365af46be8bcfa1a41ae87, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.65
@@ -6514,10 +6518,6 @@ PrefabInstance:
     - target: {fileID: 4246063558298672, guid: 2905acef1a365af46be8bcfa1a41ae87, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1455997300849784, guid: 2905acef1a365af46be8bcfa1a41ae87, type: 3}
-      propertyPath: m_Name
-      value: Candle_1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2905acef1a365af46be8bcfa1a41ae87, type: 3}
@@ -11568,6 +11568,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 0766af0dc87a3f1468ba3ec30f05f971,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 0766af0dc87a3f1468ba3ec30f05f971,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11637,11 +11642,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2534866581884222612, guid: 0766af0dc87a3f1468ba3ec30f05f971,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0766af0dc87a3f1468ba3ec30f05f971, type: 3}

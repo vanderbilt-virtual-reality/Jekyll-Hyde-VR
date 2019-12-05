@@ -9,10 +9,9 @@ public class LevelSwitch : MonoBehaviour
 {
     public int curLevel = 0;
     static bool entering = true;
-    public string[] levelNames = new string[3] { "House interior", "courtyard_scene", "Surgical Theater" };
-    public static int[] count = { 0, 0, 0 };
-    public static bool[] finish = { false, false, false };
-    public Text toast;
+    public string[] levelNames = new string[4] { "street", "House interior", "courtyard_scene", "Surgical Theater" };
+    public static int[] count = {0, 0, 0, 0 };
+    public static bool[] finish = {false, false, false, false };
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +19,6 @@ public class LevelSwitch : MonoBehaviour
         GameObject entrance = GameObject.FindWithTag("DoorEnter");
         GameObject exit = GameObject.FindWithTag("DoorExit");
         GameObject player = GameObject.FindWithTag("Player");
-        toast = toast.GetComponent<Text>();
         Vector3 startPos;
         if (entering)
         {
