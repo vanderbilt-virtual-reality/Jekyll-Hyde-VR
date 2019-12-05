@@ -10,8 +10,14 @@ public class LevelSwitch : MonoBehaviour
     public int curLevel = 0;
     static bool entering = true;
     public string[] levelNames = new string[4] { "street", "House interior", "courtyard_scene", "Surgical Theater" };
+<<<<<<< HEAD
     public static int[] count = {0, 0, 0, 0 };
     public static bool[] finish = {false, false, false, false };
+=======
+    public static int[] count = { 0, 0, 0 };
+    public static bool[] finish = { false, false, false };
+    public Text toast;
+>>>>>>> 7a31c24453ebf99ef1d8c47fecf179dc80472257
 
     // Start is called before the first frame update
     void Start()

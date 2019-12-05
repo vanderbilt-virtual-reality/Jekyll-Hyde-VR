@@ -6053,6 +6053,32 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1083201395}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1083201413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1083201400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e54ccb3ec0b36041ad802973ca59d06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myText: {fileID: 2071725846}
+--- !u!114 &1083201414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1083201402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e54ccb3ec0b36041ad802973ca59d06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myText: {fileID: 2071725846}
 --- !u!1001 &1105964418
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10361,7 +10387,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enter: 1
-  curLevel: 0
+  curLevel: 1
   total: 2
   toast: {fileID: 2071725846}
 --- !u!65 &1825157528
@@ -11568,6 +11594,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+=======
+    - target: {fileID: -927199367670048503, guid: 0766af0dc87a3f1468ba3ec30f05f971,
+        type: 3}
+      propertyPath: m_TagString
+      value: Paper
+      objectReference: {fileID: 0}
+>>>>>>> 7a31c24453ebf99ef1d8c47fecf179dc80472257
     - target: {fileID: 2534866581884222612, guid: 0766af0dc87a3f1468ba3ec30f05f971,
         type: 3}
       propertyPath: m_Layer
@@ -11710,7 +11744,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enter: 1
-  curLevel: 0
+  curLevel: 1
   total: 2
   toast: {fileID: 2071725846}
 --- !u!1001 &2003854792

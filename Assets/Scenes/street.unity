@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.22485095, g: 0.2513121, b: 0.3221126, a: 1}
+  m_IndirectSpecularColor: {r: 0.040745974, g: 0.050543424, b: 0.08338426, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -137,11 +137,14 @@ PrefabInstance:
       propertyPath: m_TagString
       value: DoorExit
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: -3113182613196126298, guid: 8b626ac1649e44aed88ee64d9de481f1,
         type: 3}
       propertyPath: m_TagString
       value: DoorEnter
       objectReference: {fileID: 0}
+=======
+>>>>>>> 7a31c24453ebf99ef1d8c47fecf179dc80472257
     - target: {fileID: -8437215779380811630, guid: 8b626ac1649e44aed88ee64d9de481f1,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2204,6 +2207,10 @@ MonoBehaviour:
   - House interior
   - courtyard_scene
   - Surgical Theater
+<<<<<<< HEAD
+=======
+  toast: {fileID: 0}
+>>>>>>> 7a31c24453ebf99ef1d8c47fecf179dc80472257
 --- !u!114 &228836063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7719,6 +7726,10 @@ MonoBehaviour:
   - House interior
   - courtyard_scene
   - Surgical Theater
+<<<<<<< HEAD
+=======
+  toast: {fileID: 0}
+>>>>>>> 7a31c24453ebf99ef1d8c47fecf179dc80472257
 --- !u!114 &1617956997
 MonoBehaviour:
   m_ObjectHideFlags: 0
