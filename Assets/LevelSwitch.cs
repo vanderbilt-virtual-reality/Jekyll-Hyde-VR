@@ -7,7 +7,7 @@ using Valve.VR;
 
 public class LevelSwitch : MonoBehaviour
 {
-    public int curLevel = 0;
+    public int curLevel;
     static bool entering = true;
     public string[] levelNames = new string[5] { "street", "House interior", "courtyard_scene", "Surgical Theater", "Lab New" };
     public static int[] count = {0, 0, 0, 0, 0 };
