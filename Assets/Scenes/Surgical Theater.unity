@@ -890,6 +890,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plate_1
       objectReference: {fileID: 0}
+    - target: {fileID: 3531663340314158096, guid: 7dd029d0133b44942adf868f82237751,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5805697349066321870, guid: 7dd029d0133b44942adf868f82237751,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -947,6 +952,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7dd029d0133b44942adf868f82237751, type: 3}
+--- !u!1 &140569978 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3531663340314158096, guid: 7dd029d0133b44942adf868f82237751,
+    type: 3}
+  m_PrefabInstance: {fileID: 140569977}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &140569979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140569978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 0
+  m_snapOrientation: 0
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
 --- !u!1 &148678167
 GameObject:
   m_ObjectHideFlags: 0
@@ -13375,6 +13403,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box_2
       objectReference: {fileID: 0}
+    - target: {fileID: 3680320584328162586, guid: 29b5cbcd84c755c43b1dcc33e300c7ba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 714589133873006156, guid: 29b5cbcd84c755c43b1dcc33e300c7ba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13432,6 +13465,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29b5cbcd84c755c43b1dcc33e300c7ba, type: 3}
+--- !u!1 &326112558 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3680320584328162586, guid: 29b5cbcd84c755c43b1dcc33e300c7ba,
+    type: 3}
+  m_PrefabInstance: {fileID: 326112557}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &326112559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326112558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 0
+  m_snapOrientation: 0
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
 --- !u!1 &359189553
 GameObject:
   m_ObjectHideFlags: 0
@@ -14901,6 +14957,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bucket
       objectReference: {fileID: 0}
+    - target: {fileID: 3844342843263761687, guid: b2beb1774e34ca44ba2713db46de64ae,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5954107388958546296, guid: b2beb1774e34ca44ba2713db46de64ae,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14958,6 +15019,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2beb1774e34ca44ba2713db46de64ae, type: 3}
+--- !u!1 &758594645 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3844342843263761687, guid: b2beb1774e34ca44ba2713db46de64ae,
+    type: 3}
+  m_PrefabInstance: {fileID: 758594644}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &758594646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758594645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 0
+  m_snapOrientation: 0
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
 --- !u!1 &777816529
 GameObject:
   m_ObjectHideFlags: 0
@@ -26779,7 +26863,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -26920,6 +27004,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pot
       objectReference: {fileID: 0}
+    - target: {fileID: 5239059617234987765, guid: 7f307a697de2e9e46b423b7fe883a1da,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4805851980224523168, guid: 7f307a697de2e9e46b423b7fe883a1da,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26977,6 +27066,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f307a697de2e9e46b423b7fe883a1da, type: 3}
+--- !u!1 &814176356 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5239059617234987765, guid: 7f307a697de2e9e46b423b7fe883a1da,
+    type: 3}
+  m_PrefabInstance: {fileID: 814176355}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &814176357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814176356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 0
+  m_snapOrientation: 0
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
 --- !u!1 &842253968 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 217326724320783407, guid: 4a7bff31f2d215c44b5195c08d7db1f6,
@@ -51685,7 +51797,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -53953,6 +54065,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Book_2
       objectReference: {fileID: 0}
+    - target: {fileID: 1358133713633310, guid: 3db9702ab99294a4ab34f47de04cd1c1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4948139635436348, guid: 3db9702ab99294a4ab34f47de04cd1c1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.1511264
@@ -53999,6 +54115,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3db9702ab99294a4ab34f47de04cd1c1, type: 3}
+--- !u!1 &1975843008 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1358133713633310, guid: 3db9702ab99294a4ab34f47de04cd1c1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1975843007}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1975843009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975843008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 0
+  m_snapOrientation: 0
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
 --- !u!1001 &1983000063
 PrefabInstance:
   m_ObjectHideFlags: 0
