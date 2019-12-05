@@ -11594,14 +11594,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
-<<<<<<< HEAD
-=======
     - target: {fileID: -927199367670048503, guid: 0766af0dc87a3f1468ba3ec30f05f971,
         type: 3}
       propertyPath: m_TagString
       value: Paper
       objectReference: {fileID: 0}
->>>>>>> 7a31c24453ebf99ef1d8c47fecf179dc80472257
     - target: {fileID: 2534866581884222612, guid: 0766af0dc87a3f1468ba3ec30f05f971,
         type: 3}
       propertyPath: m_Layer

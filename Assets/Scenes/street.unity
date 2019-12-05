@@ -137,14 +137,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: DoorExit
       objectReference: {fileID: 0}
-<<<<<<< HEAD
     - target: {fileID: -3113182613196126298, guid: 8b626ac1649e44aed88ee64d9de481f1,
         type: 3}
       propertyPath: m_TagString
       value: DoorEnter
       objectReference: {fileID: 0}
-=======
->>>>>>> 7a31c24453ebf99ef1d8c47fecf179dc80472257
     - target: {fileID: -8437215779380811630, guid: 8b626ac1649e44aed88ee64d9de481f1,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2207,10 +2204,6 @@ MonoBehaviour:
   - House interior
   - courtyard_scene
   - Surgical Theater
-<<<<<<< HEAD
-=======
-  toast: {fileID: 0}
->>>>>>> 7a31c24453ebf99ef1d8c47fecf179dc80472257
 --- !u!114 &228836063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3576,12 +3569,12 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: d50c048307f2f4a65ac2d34761f3ddb3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.09
+      value: 0.108
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d50c048307f2f4a65ac2d34761f3ddb3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.6414972
+      value: 0.6415
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d50c048307f2f4a65ac2d34761f3ddb3,
         type: 3}
@@ -3626,17 +3619,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: d50c048307f2f4a65ac2d34761f3ddb3,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.4
+      value: 0.058096
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d50c048307f2f4a65ac2d34761f3ddb3,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.4
+      value: 0.058096
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d50c048307f2f4a65ac2d34761f3ddb3,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.4
+      value: 0.058096
       objectReference: {fileID: 0}
     - target: {fileID: -2416733968201007103, guid: d50c048307f2f4a65ac2d34761f3ddb3,
         type: 3}
@@ -6939,14 +6932,6 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 400012, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400012, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -6998,6 +6983,14 @@ PrefabInstance:
     - target: {fileID: 11400002, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: _trackingOriginType
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
@@ -7726,10 +7719,6 @@ MonoBehaviour:
   - House interior
   - courtyard_scene
   - Surgical Theater
-<<<<<<< HEAD
-=======
-  toast: {fileID: 0}
->>>>>>> 7a31c24453ebf99ef1d8c47fecf179dc80472257
 --- !u!114 &1617956997
 MonoBehaviour:
   m_ObjectHideFlags: 0
