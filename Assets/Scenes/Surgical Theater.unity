@@ -12853,6 +12853,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5821436925779856173, guid: 6691445c012e7d64db17c551684f7436,
+        type: 3}
+      propertyPath: m_Name
+      value: Bottle_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821436925779856173, guid: 6691445c012e7d64db17c551684f7436,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6290983790237686625, guid: 6691445c012e7d64db17c551684f7436,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12907,16 +12917,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5821436925779856173, guid: 6691445c012e7d64db17c551684f7436,
-        type: 3}
-      propertyPath: m_Name
-      value: Bottle_1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5821436925779856173, guid: 6691445c012e7d64db17c551684f7436,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6691445c012e7d64db17c551684f7436, type: 3}
@@ -14254,7 +14254,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1202278557750872, guid: f29f906fd76b0884f91f07ba3f560ec4, type: 3}
       propertyPath: m_TagString
-      value: DoorEnter
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 1202278557750872, guid: f29f906fd76b0884f91f07ba3f560ec4, type: 3}
       propertyPath: m_Layer
@@ -14741,8 +14741,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2ce48b2790f1fd4296c6aa8942b8c18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  curLevel: 2
+  curLevel: 3
   levelNames:
+  - street
   - House interior
   - courtyard_scene
   - Surgical Theater
@@ -53651,6 +53652,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7299118247976264613, guid: ace33f778e823984293743472e5b08ca,
+        type: 3}
+      propertyPath: m_Name
+      value: Bottle_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7299118247976264613, guid: ace33f778e823984293743472e5b08ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5264260703351228731, guid: ace33f778e823984293743472e5b08ca,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -53706,16 +53717,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7299118247976264613, guid: ace33f778e823984293743472e5b08ca,
-        type: 3}
-      propertyPath: m_Name
-      value: Bottle_4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7299118247976264613, guid: ace33f778e823984293743472e5b08ca,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ace33f778e823984293743472e5b08ca, type: 3}
 --- !u!1 &1833591692 stripped
@@ -53736,12 +53737,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2ce48b2790f1fd4296c6aa8942b8c18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  curLevel: 2
+  curLevel: 3
   levelNames:
+  - street
   - House interior
   - courtyard_scene
   - Surgical Theater
-  toast: {fileID: 1473055602}
+  toast: {fileID: 0}
 --- !u!114 &1833591694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53947,6 +53949,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1358133713633310, guid: 3db9702ab99294a4ab34f47de04cd1c1, type: 3}
+      propertyPath: m_Name
+      value: Book_2
+      objectReference: {fileID: 0}
     - target: {fileID: 4948139635436348, guid: 3db9702ab99294a4ab34f47de04cd1c1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.1511264
@@ -53990,10 +53996,6 @@ PrefabInstance:
     - target: {fileID: 4948139635436348, guid: 3db9702ab99294a4ab34f47de04cd1c1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1358133713633310, guid: 3db9702ab99294a4ab34f47de04cd1c1, type: 3}
-      propertyPath: m_Name
-      value: Book_2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3db9702ab99294a4ab34f47de04cd1c1, type: 3}

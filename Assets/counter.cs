@@ -15,7 +15,7 @@ public class counter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        grabbable = grabbable.GetComponent<BoxCollider>();
+        grabbable = GetComponent<BoxCollider>();
         toast = toast.GetComponent<Text>();
     }
 
