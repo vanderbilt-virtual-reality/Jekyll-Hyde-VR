@@ -721,6 +721,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8248018929f7dc4bb71b4b6a376f010, type: 3}
+--- !u!1 &53344984 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5541725397849147256, guid: c8248018929f7dc4bb71b4b6a376f010,
+    type: 3}
+  m_PrefabInstance: {fileID: 53344983}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &53344985
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53344984}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.347003, y: 2.896047, z: 0.48468637}
+  m_Center: {x: -0.11811495, y: 1.3880448, z: 0.2576568}
 --- !u!1001 &60361224
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4054,7 +4073,6 @@ GameObject:
   m_Component:
   - component: {fileID: 459366830}
   - component: {fileID: 459366832}
-  - component: {fileID: 459366831}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -4076,14 +4094,6 @@ Transform:
   m_Father: {fileID: 1016708057}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!81 &459366831
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 459366829}
-  m_Enabled: 1
 --- !u!20 &459366832
 Camera:
   m_ObjectHideFlags: 0
@@ -12748,7 +12758,8 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8100000, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
 --- !u!1001 &1409527284
 PrefabInstance:
@@ -14708,12 +14719,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1848785088635717550, guid: 156f9ae0821b33a40af34d423ad96b2f,
+    - target: {fileID: 1337114392333501252, guid: 156f9ae0821b33a40af34d423ad96b2f,
         type: 3}
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
-    - target: {fileID: 1337114392333501252, guid: 156f9ae0821b33a40af34d423ad96b2f,
+    - target: {fileID: 1848785088635717550, guid: 156f9ae0821b33a40af34d423ad96b2f,
         type: 3}
       propertyPath: m_Layer
       value: 8

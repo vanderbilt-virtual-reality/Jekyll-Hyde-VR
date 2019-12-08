@@ -12,7 +12,6 @@ public class LevelSwitch : MonoBehaviour
     public string[] levelNames = new string[5] { "street", "House interior", "courtyard_scene", "Surgical Theater", "Lab New" };
     public static int[] count = {0, 0, 0, 0, 0 };
     public static bool[] finish = {false, false, false, false, false };
-
     // Start is called before the first frame update
     void Start()
     {
@@ -24,10 +23,12 @@ public class LevelSwitch : MonoBehaviour
         {
             startPos = new Vector3(entrance.transform.position.x, 1.0f, entrance.transform.position.z);
             player.transform.rotation = GameObject.FindWithTag("DoorEnter").transform.rotation;
+            player.transform.Rotate(player.transform.rotation.x, -1 * player.transform.rotation.y, player.transform.rotation.z);
         } else
         {
             startPos = new Vector3(exit.transform.position.x, 1.0f, exit.transform.position.z);
             player.transform.rotation = GameObject.FindWithTag("DoorExit").transform.rotation;
+            player.transform.Rotate(player.transform.rotation.x, -1 * player.transform.rotation.y, player.transform.rotation.z);
         }
         player.transform.position = startPos;
         print(startPos);
@@ -36,35 +37,32 @@ public class LevelSwitch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-  
-            if (gameObject.GetComponent<OVRGrabber>().grabbedObject != null)
+        print(gameObject.GetComponent<OVRGrabber>().grabbedObject);
+        if (gameObject.GetComponent<OVRGrabber>().grabbedObject != null)
+        {
+            print(gameObject.GetComponent<OVRGrabber>().grabbedObject.gameObject);
+            Debug.Log("Grabbed something");
+            if (gameObject.GetComponent<OVRGrabber>().grabbedObject.gameObject.tag == "DoorEnter")
             {
-                print(gameObject.GetComponent<OVRGrabber>().grabbedObject.gameObject);
-                Debug.Log(finish[curLevel]);
-                if (gameObject.GetComponent<OVRGrabber>().grabbedObject.gameObject.tag == "DoorEnter")
-                {
-                    Debug.Log(gameObject.GetComponent<OVRGrabber>().grabbedObject.gameObject.tag);
-                    Debug.Log(curLevel);
-                    curLevel--;
-                    Debug.Log(curLevel);
-                    
-                    entering = false;
-                    print(entering);
-                    SteamVR_LoadLevel.Begin(levelNames[curLevel]);
-                }
-                else if (gameObject.GetComponent<OVRGrabber>().grabbedObject.gameObject.tag == "DoorExit")
-                {
-                    Debug.Log(gameObject.GetComponent<OVRGrabber>().grabbedObject.gameObject.tag);
-                    Debug.Log(curLevel);
-                    curLevel++;
-                    Debug.Log(curLevel);
-                    entering = true;
+                Debug.Log(gameObject.GetComponent<OVRGrabber>().grabbedObject.gameObject.tag);
+                Debug.Log(curLevel);
+                curLevel--;
+                Debug.Log(curLevel);
+
+                entering = false;
                 print(entering);
-                    SteamVR_LoadLevel.Begin(levelNames[curLevel]);
-                }
+                SteamVR_LoadLevel.Begin(levelNames[curLevel]);
             }
-        
-        
-        
+            else if (gameObject.GetComponent<OVRGrabber>().grabbedObject.gameObject.tag == "DoorExit")
+            {
+                Debug.Log(gameObject.GetComponent<OVRGrabber>().grabbedObject.gameObject.tag);
+                Debug.Log(curLevel);
+                curLevel++;
+                Debug.Log(curLevel);
+                entering = true;
+                print(entering);
+                SteamVR_LoadLevel.Begin(levelNames[curLevel]);
+            }
+        }
     }
 }

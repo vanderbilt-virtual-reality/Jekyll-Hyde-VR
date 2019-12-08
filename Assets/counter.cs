@@ -33,7 +33,7 @@ public class counter : MonoBehaviour
                 LevelSwitch.count[curLevel]++;
                 hasBeenGrabbed = true;
 
-                toast.text = "Clues found: " + LevelSwitch.count[curLevel] + "/" + total;
+                toast.text = "Clues found: " + LevelSwitch.count[curLevel] + "/" + total ;
                 System.Timers.Timer aTimer;
                 aTimer = new System.Timers.Timer();
                 aTimer.Elapsed += new ElapsedEventHandler(this.onTimedEvent);
